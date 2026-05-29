@@ -1,5 +1,6 @@
 ---
 name: why-standards
+model: sonnet
 description: Investigator for one level of a 5-Whys chain, scoped to the user's global standards and personal coding rules in ~/source/standards/ and ~/.claude/CLAUDE.md. Use as part of the `why` skill when a why-level question could be informed by cross-project rules (naming, build, CLI, Python style, versioning, attribution, communication preferences). Returns cited evidence only; does not propose fixes.
 tools: Read, Grep, Glob, Bash
 ---

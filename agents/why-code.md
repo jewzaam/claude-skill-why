@@ -1,5 +1,6 @@
 ---
 name: why-code
+model: sonnet
 description: Investigator for one level of a 5-Whys chain, scoped to the current project's source code and git history — definitions, callers, control/data flow, tests, configs, and the commit messages that explain *why* code is shaped the way it is. Use as part of the `why` skill when a why-level question could be settled (or sharpened) by reading code and `git log`/`git blame`. Returns cited evidence only; does not propose fixes.
 tools: Read, Grep, Glob, Bash
 ---
