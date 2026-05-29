@@ -1,5 +1,6 @@
 ---
 name: why-local-docs
+model: sonnet
 description: Investigator for one level of a 5-Whys chain, scoped to the current project's documentation — CLAUDE.md, README, docs/, ADRs, RFCs, design notes, review/findings files, and declared conventions in pyproject/package/Makefile/.github. Use as part of the `why` skill when a why-level question could be informed by written project intent, decisions, or conventions. Returns cited evidence only; does not propose fixes.
 tools: Read, Grep, Glob, Bash
 ---
